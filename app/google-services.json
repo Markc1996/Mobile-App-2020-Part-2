@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "423587892970",
-    "firebase_url": "https://mobileapp-2020.firebaseio.com",
-    "project_id": "mobileapp-2020",
-    "storage_bucket": "mobileapp-2020.appspot.com"
+    "project_number": "785869123167",
+    "firebase_url": "https://mobileapp-2020-447bb.firebaseio.com",
+    "project_id": "mobileapp-2020-447bb",
+    "storage_bucket": "mobileapp-2020-447bb.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:423587892970:android:998d8d17976146de785193",
+        "mobilesdk_app_id": "1:785869123167:android:f56e527ea43702212d35ea",
         "android_client_info": {
-          "package_name": "ie.wit.mobileappsemester2.mobileappassignment_markcarley_2020"
+          "package_name": "ie.wit"
         }
       },
       "oauth_client": [
         {
-          "client_id": "423587892970-h65ac27pl2d9hr5frta0f05lc6v6tklj.apps.googleusercontent.com",
+          "client_id": "785869123167-gjf7cfd3p5vpuanov8q7n1j1v184gmpl.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "ie.wit.mobileappsemester2.mobileappassignment_markcarley_2020",
+            "package_name": "ie.wit",
             "certificate_hash": "271c7aaba31f4c5cb1a3476548a5fcebf6cacdd8"
           }
         },
         {
-          "client_id": "423587892970-tar0o2a7vfrnfs9j8i2s290n3qma94cu.apps.googleusercontent.com",
+          "client_id": "785869123167-drvhdlhtb2r84i5i6a2q2cbsucvfplju.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCa0W93vFGskFPu5wISDHlQp56fitxWS_g"
+          "current_key": "AIzaSyALatJpf3SsC19YJagyVEa-4KkUXCQs4zA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "423587892970-tar0o2a7vfrnfs9j8i2s290n3qma94cu.apps.googleusercontent.com",
+              "client_id": "785869123167-drvhdlhtb2r84i5i6a2q2cbsucvfplju.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
