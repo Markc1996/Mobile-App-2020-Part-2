@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ie.wit.mobileappsemester2.mobileappassignment_markcarley_2020.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fr_home" />
+
+    <fragment
+        android:id="@+id/fishing_spots"
+        android:name="ie.wit.mobileappsemester2.mobileappassignment_markcarley_2020.fishing"
+        android:label="Fishing"
+        tools:layout="@layout/fr_fishing" />
+
+    <fragment
+        android:id="@+id/nav_weather"
+        android:name="ie.wit.mobileappsemester2.mobileappassignment_markcarley_2020.weather"
+        android:label="Weather"
+        tools:layout="@layout/fr_weather" />
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="ie.wit.mobileappsemester2.mobileappassignment_markcarley_2020.search"
+        android:label="Search"
+        tools:layout="@layout/fr_search" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="ie.wit.mobileappsemester2.mobileappassignment_markcarley_2020.share"
+        android:label="Share"
+        tools:layout="@layout/fr_share" />
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="ie.wit.mobileappsemester2.mobileappassignment_markcarley_2020.login"
+        android:label="Login"
+        tools:layout="@layout/fr_login" />
+</navigation>

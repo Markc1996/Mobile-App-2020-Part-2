@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_menu"
+            android:icon="@drawable/ic_action_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/fishing_spots"
+            android:icon="@drawable/ic_action_spots"
+            android:title="Fishing Spots" />
+        <item
+            android:id="@+id/weather_forecast"
+            android:icon="@drawable/ic_action_weather"
+            android:title="Weather Forecast" />
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/ic_action_search"
+            android:title="Search" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_action_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/log_in"
+                android:icon="@drawable/ic_action_sign"
+                android:title="Log In" />
+        </menu>
+    </item>
+
+</menu>

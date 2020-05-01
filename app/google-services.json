@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "423587892970",
+    "firebase_url": "https://mobileapp-2020.firebaseio.com",
+    "project_id": "mobileapp-2020",
+    "storage_bucket": "mobileapp-2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423587892970:android:998d8d17976146de785193",
+        "android_client_info": {
+          "package_name": "ie.wit.mobileappsemester2.mobileappassignment_markcarley_2020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423587892970-h65ac27pl2d9hr5frta0f05lc6v6tklj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ie.wit.mobileappsemester2.mobileappassignment_markcarley_2020",
+            "certificate_hash": "271c7aaba31f4c5cb1a3476548a5fcebf6cacdd8"
+          }
+        },
+        {
+          "client_id": "423587892970-tar0o2a7vfrnfs9j8i2s290n3qma94cu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa0W93vFGskFPu5wISDHlQp56fitxWS_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423587892970-tar0o2a7vfrnfs9j8i2s290n3qma94cu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
