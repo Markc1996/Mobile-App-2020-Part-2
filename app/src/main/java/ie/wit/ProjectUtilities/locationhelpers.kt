@@ -9,16 +9,10 @@ import com.google.android.gms.location.LocationCallback
 import com.google.android.gms.location.LocationRequest
 import com.google.android.gms.location.LocationResult
 import com.google.android.gms.maps.CameraUpdateFactory
-import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.model.BitmapDescriptorFactory
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
-import com.google.firebase.database.DataSnapshot
-import com.google.firebase.database.DatabaseError
-import com.google.firebase.database.ValueEventListener
-import ie.wit.R
-import ie.wit.main.DonationApp
-import ie.wit.models.DonationModel
+import ie.wit.ProjectMain.FishingApp
 
 val REQUEST_PERMISSIONS_REQUEST_CODE = 34
 
@@ -48,7 +42,7 @@ fun isPermissionGranted(code: Int, grantResults: IntArray): Boolean {
 }
 
 @SuppressLint("MissingPermission")
-fun setCurrentLocation(app: DonationApp) {
+fun setCurrentLocation(app: FishingApp) {
     app.locationClient.lastLocation
         .addOnSuccessListener { location : Location? ->
             app.currentLocation = location!!
@@ -66,7 +60,7 @@ fun createDefaultLocationRequest() : LocationRequest {
 }
 
 @SuppressLint("MissingPermission")
-fun trackLocation(app: DonationApp) {
+fun trackLocation(app: FishingApp) {
     val locationCallback = object : LocationCallback() {
         override fun onLocationResult(locationResult: LocationResult?) {
             if (locationResult != null) {
@@ -81,7 +75,7 @@ fun trackLocation(app: DonationApp) {
         locationCallback, null)
 }
 
-fun setMapMarker(app: DonationApp) {
+fun setMapMarker(app: FishingApp) {
 
     val pos = LatLng(app.currentLocation.latitude,
         app.currentLocation.longitude)

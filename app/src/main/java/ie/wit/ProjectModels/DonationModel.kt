@@ -1,4 +1,4 @@
-package ie.wit.models
+package ie.wit.ProjectModels
 
 import android.os.Parcelable
 import com.google.firebase.database.Exclude
@@ -17,7 +17,7 @@ data class DonationModel(
     var amount: Int = 0,
     var message: String = "a message",
     var upvotes: Int = 0,
-    var email: String? = "joe@bloggs.com")
+    var email: String? = "john@smith.com")
                         : Parcelable
 
 {

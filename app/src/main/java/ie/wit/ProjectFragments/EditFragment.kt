@@ -1,4 +1,4 @@
-package ie.wit.fragments
+package ie.wit.ProjectFragments
 
 
 import android.os.Bundle
@@ -12,25 +12,25 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.ValueEventListener
 
 import ie.wit.R
-import ie.wit.main.DonationApp
-import ie.wit.models.DonationModel
-import ie.wit.utils.createLoader
-import ie.wit.utils.hideLoader
-import ie.wit.utils.showLoader
+import ie.wit.ProjectMain.FishingApp
+import ie.wit.ProjectModels.DonationModel
+import ie.wit.ProjectUtilities.createLoader
+import ie.wit.ProjectUtilities.hideLoader
+import ie.wit.ProjectUtilities.showLoader
 import kotlinx.android.synthetic.main.fragment_edit.view.*
 import org.jetbrains.anko.AnkoLogger
 import org.jetbrains.anko.info
 
 class EditFragment : Fragment(), AnkoLogger {
 
-    lateinit var app: DonationApp
+    lateinit var app: FishingApp
     lateinit var loader : AlertDialog
     lateinit var root: View
     var editDonation: DonationModel? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        app = activity?.application as DonationApp
+        app = activity?.application as FishingApp
 
         arguments?.let {
             editDonation = it.getParcelable("editdonation")

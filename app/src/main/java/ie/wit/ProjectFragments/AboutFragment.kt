@@ -1,4 +1,4 @@
-package ie.wit.fragments
+package ie.wit.ProjectFragments
 
 
 import android.os.Bundle
@@ -10,7 +10,7 @@ import android.view.ViewGroup
 import ie.wit.R
 
 
-class AboutUsFragment : Fragment() {
+class AboutFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,7 +28,7 @@ class AboutUsFragment : Fragment() {
     companion object {
         @JvmStatic
         fun newInstance() =
-            AboutUsFragment().apply {
+            AboutFragment().apply {
                 arguments = Bundle().apply { }
             }
     }

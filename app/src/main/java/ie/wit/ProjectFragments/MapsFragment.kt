@@ -1,21 +1,15 @@
-package ie.wit.fragments
+package ie.wit.ProjectFragments
 
 import android.os.Bundle
-import android.provider.Settings.Global.getString
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
-import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
-import com.google.android.gms.maps.model.LatLng
-import com.google.android.gms.maps.model.MarkerOptions
 
 
 import ie.wit.R
-import ie.wit.main.DonationApp
+import ie.wit.ProjectMain.FishingApp
 import setMapMarker
 import trackLocation
 
@@ -31,11 +25,11 @@ private const val ARG_PARAM2 = "param2"
  */
 class FavouritesFragment : SupportMapFragment(), OnMapReadyCallback {
 
-    lateinit var app: DonationApp
+    lateinit var app: FishingApp
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        app = activity?.application as DonationApp
+        app = activity?.application as FishingApp
         getMapAsync(this)
     }
 

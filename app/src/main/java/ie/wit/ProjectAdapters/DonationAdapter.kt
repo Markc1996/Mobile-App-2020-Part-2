@@ -1,11 +1,11 @@
-package ie.wit.adapters
+package ie.wit.ProjectAdapters
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import ie.wit.R
-import ie.wit.models.DonationModel
+import ie.wit.ProjectModels.DonationModel
 import kotlinx.android.synthetic.main.card_donation.view.*
 
 interface DonationListener {

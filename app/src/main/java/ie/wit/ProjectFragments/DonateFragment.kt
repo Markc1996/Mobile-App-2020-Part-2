@@ -1,4 +1,4 @@
-package ie.wit.fragments
+package ie.wit.ProjectFragments
 
 
 import android.os.Bundle
@@ -12,9 +12,9 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.ValueEventListener
 
 import ie.wit.R
-import ie.wit.main.DonationApp
-import ie.wit.models.DonationModel
-import ie.wit.utils.*
+import ie.wit.ProjectMain.FishingApp
+import ie.wit.ProjectModels.DonationModel
+import ie.wit.ProjectUtilities.*
 import kotlinx.android.synthetic.main.fragment_donate.*
 import kotlinx.android.synthetic.main.fragment_donate.view.*
 import org.jetbrains.anko.AnkoLogger
@@ -26,14 +26,14 @@ import java.util.HashMap
 
 class DonateFragment : Fragment(), AnkoLogger {
 
-    lateinit var app: DonationApp
+    lateinit var app: FishingApp
     var totalDonated = 0
     lateinit var loader : AlertDialog
     lateinit var eventListener : ValueEventListener
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        app = activity?.application as DonationApp
+        app = activity?.application as FishingApp
     }
 
     override fun onCreateView(

@@ -15,16 +15,12 @@
       },
       "oauth_client": [
         {
-          "client_id": "785869123167-gjf7cfd3p5vpuanov8q7n1j1v184gmpl.apps.googleusercontent.com",
+          "client_id": "785869123167-qf9lmn212el7m58ngqicorkp9atvalsc.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "ie.wit",
             "certificate_hash": "271c7aaba31f4c5cb1a3476548a5fcebf6cacdd8"
           }
-        },
-        {
-          "client_id": "785869123167-drvhdlhtb2r84i5i6a2q2cbsucvfplju.apps.googleusercontent.com",
-          "client_type": 3
         }
       ],
       "api_key": [
@@ -36,7 +32,7 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "785869123167-drvhdlhtb2r84i5i6a2q2cbsucvfplju.apps.googleusercontent.com",
+              "client_id": "785869123167-m2525ao2sraakbg35fjmft962ufqphgo.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

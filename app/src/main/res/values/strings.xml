@@ -2,7 +2,7 @@
     <string name="app_name">Donation</string>
     <string name="action_donate">Donate</string>
     <string name="action_report">Report</string>
-    <string name="donateTitle">Welcome Homer</string>
+    <string name="donateTitle">Welcome Back</string>
     <string name="donateSubtitle">Please Give Generously</string>
     <string name="donateButton">Donate</string>
     <string name="paypal">PayPal</string>
@@ -18,22 +18,22 @@
     <string name="title_activity_home">Home</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Donation (Lab K10)</string>
-    <string name="nav_header_subtitle">voteforhomer@android.com</string>
+    <string name="nav_header_title">Mobile App Assignment</string>
+    <string name="nav_header_subtitle">20071864@wit.ie</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_donate">Donate</string>
-    <string name="menu_report">Report</string>
-    <string name="menu_favourites">Favourites</string>
-    <string name="menu_about">About Us</string>
+    <string name="menu_donate">Constribute</string>
+    <string name="menu_report">Listings</string>
+    <string name="menu_favourites">Fishing Spots</string>
+    <string name="menu_about">About the App</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
 
-    <string name="aboutus_title">Homer for President !!</string>
-    <string name="aboutus_message">Hi, I\'m Homer\n\nPlease vote for me.\n\n Please Please Please Please!!</string>
+    <string name="aboutus_title">About the App</string>
+    <string name="aboutus_message"></string>
 
-    <string name="messageLoading">Please wait while we Connect to the Server...</string>
+    <string name="messageLoading">We are connecting to the server, please wait</string>
 
     <string name="action_edit">Edit Donation</string>
     <string name="action_update">Update</string>
@@ -63,6 +63,8 @@
     <string name="emailpassword_title_text">Please Login Below</string>
     <string name="favourites_title">Favourite Donations</string>
 
+
+    <string name="default_web_client_id" translatable="false">785869123167-p98qofojac34q96mtrt7iqn598fkie91.apps.googleusercontent.com</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
