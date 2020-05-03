@@ -1,0 +1,25 @@
+ence" name="titleTextStyle"/>
+        
+        <attr format="reference" name="subtitleTextStyle"/>
+        
+        <attr format="reference" name="icon"/>
+        
+        <attr format="reference" name="logo"/>
+        
+        <attr format="reference" name="divider"/>
+        
+        <attr format="reference" name="background"/>
+        
+        <attr format="reference|color" name="backgroundStacked"/>
+        
+        <attr format="reference|color" name="backgroundSplit"/>
+        
+        <attr format="reference" name="customNavigationLayout"/>
+        
+        <attr name="height"/>
+        
+        <attr format="reference" name="homeLayout"/>
+        
+        <attr format="reference" name="progressBarStyle"/>
+        
+        <attr format="reference" name=

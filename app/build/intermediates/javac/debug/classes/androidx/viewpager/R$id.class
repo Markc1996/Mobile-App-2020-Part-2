@@ -1,0 +1,24 @@
+c_atop" value="9"/>
+      
+      <enum name="multiply" value="14"/>
+      
+      <enum name="screen" value="15"/>
+    </attr><attr name="boxBackgroundMode">
+      
+      <enum name="none" value="0"/>
+      
+      <enum name="filled" value="1"/>
+      
+      <enum name="outline" value="2"/>
+    </attr><attr format="dimension" name="boxCollapsedPaddingTop"/><attr format="dimension" name="boxCornerRadiusTopStart"/><attr format="dimension" name="boxCornerRadiusTopEnd"/><attr format="dimension" name="boxCornerRadiusBottomStart"/><attr format="dimension" name="boxCornerRadiusBottomEnd"/><attr format="color" name="boxStrokeColor"/><attr format="color" name="boxBackgroundColor"/><attr format="dimension" name="boxStrokeWidth"/></declare-styleable>
+    <declare-styleable name="ThemeEnforcement"><attr format="boolean" name="enforceMaterialTheme"/><attr format="boolean" name="enforceTextAppearance"/><attr name="android:textAppearance"/></declare-styleable>
+    <declare-styleable name="Toolbar">
+        <attr format="reference" name="titleTextAppearance"/>
+        <attr format="reference" name="subtitleTextAppearance"/>
+        <attr name="title"/>
+        <attr name="subtitle"/>
+        <attr name="android:gravity"/>
+        
+        <attr format="dimension" name="titleMargin"/>
+        
+        <attr format="dimension" name="titleMarginStart"/

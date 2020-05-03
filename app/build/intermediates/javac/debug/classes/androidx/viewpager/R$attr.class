@@ -1,0 +1,13 @@
+l</item>
+    </style>
+    <style name="Base.Widget.AppCompat.SearchView" parent="android:Widget">
+        <item name="layout">@layout/abc_search_view</item>
+        <item name="queryBackground">@drawable/abc_textfield_search_material</item>
+        <item name="submitBackground">@drawable/abc_textfield_search_material</item>
+        <item name="closeIcon">@drawable/abc_ic_clear_material</item>
+        <item name="searchIcon">@drawable/abc_ic_search_api_material</item>
+        <item name="searchHintIcon">@drawable/abc_ic_search_api_material</item>
+        <item name="goIcon">@drawable/abc_ic_go_search_api_material</item>
+        <item name="voiceIcon">@drawable/abc_ic_voice_search_api_material</item>
+        <item name="commitIcon">@drawable/abc_ic_commit_search_api_mtrl_alpha</item>
+        <item name="suggestionRowLa

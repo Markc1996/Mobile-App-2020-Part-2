@@ -1,0 +1,113 @@
+reference" name="layout"/>
+        
+        <attr format="boolean" name="iconifiedByDefault"/>
+        
+        <attr name="android:maxWidth"/>
+        
+        <attr format="string" name="queryHint"/>
+        
+        <attr format="string" name="defaultQueryHint"/>
+        
+        <attr name="android:imeOptions"/>
+        
+        <attr name="android:inputType"/>
+        
+        <attr format="reference" name="closeIcon"/>
+        
+        <attr format="reference" name="goIcon"/>
+        
+        <attr format="reference" name="searchIcon"/>
+        
+        <attr format="reference" name="searchHintIcon"/>
+        
+        <attr format="reference" name="voiceIcon"/>
+        
+        <attr format="reference" name="commitIcon"/>
+        
+        <attr format="reference" name="suggestionRowLayout"/>
+        
+        <attr format="reference" name="queryBackground"/>
+        
+        <attr format="reference" name="submitBackground"/>
+        <attr name="android:focusable"/>
+    </declare-styleable><declare-styleable name="Spinner">
+        
+        <attr name="android:prompt"/>
+        
+        <attr name="popupTheme"/>
+        
+        <attr name="android:popupBackground"/>
+        
+        <attr name="android:dropDownWidth"/>
+        
+        <attr name="android:entries"/>
+    </declare-styleable><declare-styleable name="SwitchCompat">
+        
+        <attr name="android:thumb"/>
+        
+        <attr format="color" name="thumbTint"/>
+        
+        <attr name="thumbTintMode">
+            
+            <enum name="src_over" value="3"/>
+            
+            <enum name="src_in" value="5"/>
+            
+            <enum name="src_atop" value="9"/>
+            
+            <enum name="multiply" value="14"/>
+            
+            <enum name="screen" value="15"/>
+            
+            <enum name="add" value="16"/>
+        </attr>
+        
+        <attr format="reference" name="track"/>
+        
+        <attr format="color" name="trackTint"/>
+        
+        <attr name="trackTintMode">
+            
+            <enum name="src_over" value="3"/>
+            
+            <enum name="src_in" value="5"/>
+            
+            <enum name="src_atop" value="9"/>
+            
+            <enum name="multiply" value="14"/>
+            
+            <enum name="screen" value="15"/>
+            
+            <enum name="add" value="16"/>
+        </attr>
+        
+        <attr name="android:textOn"/>
+        
+        <attr name="android:textOff"/>
+        
+        <attr format="dimension" name="thumbTextPadding"/>
+        
+        <attr format="reference" name="switchTextAppearance"/>
+        
+        <attr format="dimension" name="switchMinWidth"/>
+        
+        <attr format="dimension" name="switchPadding"/>
+        
+        <attr format="boolean" name="splitTrack"/>
+        
+        <attr format="boolean" name="showText"/>
+    </declare-styleable><declare-styleable name="TextAppearance">
+        <attr name="android:textSize"/>
+        <attr name="android:textColor"/>
+        <attr name="android:textColorHint"/>
+        <attr name="android:textColorLink"/>
+        <attr name="android:textStyle"/>
+        <attr name="android:textFontWeight"/>
+        <attr name="android:typeface"/>
+        <attr name="android:fontFamily"/>
+        <attr name="fontFamily"/>
+        <attr name="textAllCaps"/>
+        
+        <attr name="textLocale"/>
+        <attr name="android:shadowColor"/>
+     

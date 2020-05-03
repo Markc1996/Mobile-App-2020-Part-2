@@ -1,0 +1,12 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\markc\\Downloads\\MobileAppAssignment2-2020-Mark-Carley-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hu\\values-hu.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\markc\\.gradle\\caches\\transforms-2\\files-2.1\\79b2d7246a81135a078ae660be004e51\\appcompat-1.1.0\\res\\values-hu\\values-hu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,213,305,420,504,619,742,819,895,986,1078,1173,1267,1368,1461,1556,1651,1742,1833,1915,2025,2135,2235,2346,2455,2574,2756,2859",
+       

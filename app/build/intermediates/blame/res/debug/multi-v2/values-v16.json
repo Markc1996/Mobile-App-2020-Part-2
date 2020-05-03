@@ -1,0 +1,29 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\markc\\Downloads\\MobileAppAssignment2-2020-Mark-Carley-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es\\values-es.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\markc\\.gradle\\caches\\transforms-2\\files-2.1\\b382c9c59e9373cc660e3d24e4b5366c\\jetified-play-services-basement-17.0.0\\res\\values-es\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "218",
+                        "endOffsets": "465"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "4030",
+                        "endColumns": "218",
+                        "endOffsets": "4244"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\markc\\.gradle\\caches\\transforms-2\\files-2.1\\1d9f0a49fc6d9dc95475f31916e87235\\play-services-base-17.1.0\\res\\values-es\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,351,546,675,781,1001,1132,1280,1415,1666,1773,1969,2099,2323,2506,2599,2694",
+                        "endColumns": "105,194,128,105,21

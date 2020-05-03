@@ -1,0 +1,24 @@
+    <item name="android:button">?android:attr/listChoiceIndicatorSingle</item>
+        <item name="buttonCompat">?attr/listChoiceIndicatorSingleAnimated</item>
+        <item name="android:background">?attr/controlBackground</item>
+    </style><style name="Base.Widget.AppCompat.CompoundButton.Switch" parent="android:Widget.CompoundButton">
+        <item name="track">@drawable/abc_switch_track_mtrl_alpha</item>
+        <item name="android:thumb">@drawable/abc_switch_thumb_material</item>
+        <item name="switchTextAppearance">@style/TextAppearance.AppCompat.Widget.Switch</item>
+        <item name="android:background">?attr/controlBackground</item>
+        <item name="showText">false</item>
+        <item name="switchPadding">@dimen/abc_switch_padding</item>
+        <item name="android:textOn">@string/abc_capital_on</item>
+        <item name="android:textOff">@string/abc_capital_off</item>
+    </style><style name="Base.Widget.AppCompat.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle.Common">
+        <item name="barLength">18dp</item>
+        <item name="gapBetweenBars">3dp</item>
+        <item name="drawableSize">24dp</item>
+    </style><style name="Base.Widget.AppCompat.DrawerArrowToggle.Common" parent="">
+        <item name="color">?android:attr/textColorSecondary</item>
+        <item name="spinBars">true</item>
+        <item name="thickness">2dp</item>
+        <item name="arrowShaftLength">16dp</item>
+        <item name="arrowHeadLength">8dp</item>
+    </style><style name="Base.Widget.AppCompat.DropDownItem.Spinner" parent="">
+        <item name="android:textAppearance">@style/TextAppearance

@@ -1,0 +1,109 @@
+onRatio=41;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#layout_constraintEnd_toEndOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name ie.wit:layout_constraintEnd_toEndOf
+     */
+    public static final int ConstraintSet_layout_constraintEnd_toEndOf=42;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#layout_constraintEnd_toStartOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name ie.wit:layout_constraintEnd_toStartOf
+     */
+    public static final int ConstraintSet_layout_constraintEnd_toStartOf=43;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#layout_constraintGuide_begin}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name ie.wit:layout_constraintGuide_begin
+     */
+    public static final int ConstraintSet_layout_constraintGuide_begin=44;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#layout_constraintGuide_end}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name ie.wit:layout_constraintGuide_end
+     */
+    public static final int ConstraintSet_layout_constraintGuide_end=45;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#layout_constraintGuide_percent}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name ie.wit:layout_constraintGuide_percent
+     */
+    public static final int ConstraintSet_layout_constraintGuide_percent=46;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#layout_constraintHeight_default}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>percent</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>wrap</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name ie.wit:layout_constraintHeight_default
+     */
+    public static final int ConstraintSet_layout_constraintHeight_default=47;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#layout_constraintHeight_max}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Descr

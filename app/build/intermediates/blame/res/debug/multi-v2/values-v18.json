@@ -1,0 +1,16 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\markc\\Downloads\\MobileAppAssignment2-2020-Mark-Carley-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-eu\\values-eu.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\markc\\.gradle\\caches\\transforms-2\\files-2.1\\b382c9c59e9373cc660e3d24e4b5366c\\jetified-play-services-basement-17.0.0\\res\\values-eu\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "200",
+                        "endOffsets": "447"
+                    },
+                    "to": {
+ 

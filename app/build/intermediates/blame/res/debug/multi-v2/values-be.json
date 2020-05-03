@@ -1,0 +1,89 @@
+earanceHeadline4}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline5 ie.wit:textAppearanceHeadline5}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline6 ie.wit:textAppearanceHeadline6}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceOverline ie.wit:textAppearanceOverline}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle1 ie.wit:textAppearanceSubtitle1}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle2 ie.wit:textAppearanceSubtitle2}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textInputStyle ie.wit:textInputStyle}</code></td><td></td></tr>
+     * </table>
+     * @see #MaterialComponentsTheme_bottomSheetDialogTheme
+     * @see #MaterialComponentsTheme_bottomSheetStyle
+     * @see #MaterialComponentsTheme_chipGroupStyle
+     * @see #MaterialComponentsTheme_chipStandaloneStyle
+     * @see #MaterialComponentsTheme_chipStyle
+     * @see #MaterialComponentsTheme_colorAccent
+     * @see #MaterialComponentsTheme_colorBackgroundFloating
+     * @see #MaterialComponentsTheme_colorPrimary
+     * @see #MaterialComponentsTheme_colorPrimaryDark
+     * @see #MaterialComponentsTheme_colorSecondary
+     * @see #MaterialComponentsTheme_editTextStyle
+     * @see #MaterialComponentsTheme_floatingActionButtonStyle
+     * @see #MaterialComponentsTheme_materialButtonStyle
+     * @see #MaterialComponentsTheme_materialCardViewStyle
+     * @see #MaterialComponentsTheme_navigationViewStyle
+     * @see #MaterialComponentsTheme_scrimBackground
+     * @see #MaterialComponentsTheme_snackbarButtonStyle
+     * @see #MaterialComponentsTheme_tabStyle
+     * @see #MaterialComponentsTheme_textAppearanceBody1
+     * @see #MaterialComponentsTheme_textAppearanceBody2
+     * @see #MaterialComponentsTheme_textAppearanceButton
+     * @see #MaterialComponentsTheme_textAppearanceCaption
+     * @see #MaterialComponentsTheme_textAppearanceHeadline1
+     * @see #MaterialComponentsTheme_textAppearanceHeadline2
+     * @see #MaterialComponentsTheme_textAppearanceHeadline3
+     * @see #MaterialComponentsTheme_textAppearanceHeadline4
+     * @see #MaterialComponentsTheme_textAppearanceHeadline5
+     * @see #MaterialComponentsTheme_textAppearanceHeadline6
+     * @see #MaterialComponentsTheme_textAppearanceOverline
+     * @see #MaterialComponentsTheme_textAppearanceSubtitle1
+     * @see #MaterialComponentsTheme_textAppearanceSubtitle2
+     * @see #MaterialComponentsTheme_textInputStyle
+     */
+    public static final int[] MaterialComponentsTheme={
+      0x7f030044, 0x7f030045, 0x7f030075, 0x7f03007f, 
+      0x7f030083, 0x7f030092, 0x7f030093, 0x7f030099, 
+      0x7f03009a, 0x7f03009c, 0x7f0300ce, 0x7f0300ea, 
+      0x7f03017e, 0x7f03017f, 0x7f030189, 0x7f0301a9, 
+      0x7f0301b9, 0x7f0301ec, 0x7f0301f1, 0x7f0301f2, 
+      0x7f0301f3, 0x7f0301f4, 0x7f0301f5, 0x7f0301f6, 
+      0x7f0301f7, 0x7f0301f8, 0x7f0301f9, 0x7f0301fa, 
+      0x7f0301ff, 0x7f030204, 0x7f030205, 0x7f030209
+    };
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#bottomSheetDialogTheme}
+     * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name ie.wit:bottomSheetDialogTheme
+     */
+    public static final int MaterialComponentsTheme_bottomSheetDialogTheme=0;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#bottomSheetStyle}
+     * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name ie.wit:bottomSheetStyle
+     */
+    public static final int MaterialComponentsTheme_bottomSheetStyle=1;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#chipGroupStyle}
+     * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name ie.wit:chipGroupStyle
+     */
+    public static final int MaterialComponentsTheme_chipGroupStyle=2;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.

@@ -1,0 +1,84 @@
+pectRatioAdjust}
+     * attribute's value can be found in the {@link #LoadingImageView} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>adjust_height</td><td>2</td><td></td></tr>
+     * <tr><td>adjust_width</td><td>1</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name ie.wit:imageAspectRatioAdjust
+     */
+    public static final int LoadingImageView_imageAspectRatioAdjust=2;
+    /**
+     * Attributes that can be used with a MapAttrs.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #MapAttrs_ambientEnabled ie.wit:ambientEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraBearing ie.wit:cameraBearing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraMaxZoomPreference ie.wit:cameraMaxZoomPreference}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraMinZoomPreference ie.wit:cameraMinZoomPreference}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraTargetLat ie.wit:cameraTargetLat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraTargetLng ie.wit:cameraTargetLng}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraTilt ie.wit:cameraTilt}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraZoom ie.wit:cameraZoom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_latLngBoundsNorthEastLatitude ie.wit:latLngBoundsNorthEastLatitude}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_latLngBoundsNorthEastLongitude ie.wit:latLngBoundsNorthEastLongitude}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_latLngBoundsSouthWestLatitude ie.wit:latLngBoundsSouthWestLatitude}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_latLngBoundsSouthWestLongitude ie.wit:latLngBoundsSouthWestLongitude}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_liteMode ie.wit:liteMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_mapType ie.wit:mapType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiCompass ie.wit:uiCompass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiMapToolbar ie.wit:uiMapToolbar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiRotateGestures ie.wit:uiRotateGestures}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiScrollGestures ie.wit:uiScrollGestures}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiScrollGesturesDuringRotateOrZoom ie.wit:uiScrollGesturesDuringRotateOrZoom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiTiltGestures ie.wit:uiTiltGestures}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiZoomControls ie.wit:uiZoomControls}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiZoomGestures ie.wit:uiZoomGestures}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_useViewLifecycle ie.wit:useViewLifecycle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_zOrderOnTop ie.wit:zOrderOnTop}</code></td><td></td></tr>
+     * </table>
+     * @see #MapAttrs_ambientEnabled
+     * @see #MapAttrs_cameraBearing
+     * @see #MapAttrs_cameraMaxZoomPreference
+     * @see #MapAttrs_cameraMinZoomPreference
+     * @see #MapAttrs_cameraTargetLat
+     * @see #MapAttrs_cameraTargetLng
+     * @see #MapAttrs_cameraTilt
+     * @see #MapAttrs_cameraZoom
+     * @see #MapAttrs_latLngBoundsNorthEastLatitude
+     * @see #MapAttrs_latLngBoundsNorthEastLongitude
+     * @see #MapAttrs_latLngBoundsSouthWestLatitude
+     * @see #MapAttrs_latLngBoundsSouthWestLongitude
+     * @see #MapAttrs_liteMode
+     * @see #MapAttrs_mapType
+     * @see #MapAttrs_uiCompass
+     * @see #MapAttrs_uiMapToolbar
+     * @see #MapAttrs_uiRotateGestures
+     * @see #MapAttrs_uiScrollGestures
+     * @see #MapAttrs_uiScrollGesturesDuringRotateOrZoom
+     * @see #MapAttrs_uiTiltGestures
+     * @see #MapAttrs_uiZoomControls
+     * @see #MapAttrs_uiZoomGestures
+     * @see #MapAttrs_useViewLifecycle
+     * @see #MapAttrs_zOrderOnTop
+     */
+    public static final int[] MapAttrs={
+      0x7f030029, 0x7f03005d, 0x7f03005e, 0x7f03005f, 
+      0x7f030060, 0x7f030061, 0x7f030062, 0x7f030063, 
+      0x7f030126, 0x7f030127, 0x7f030128, 0x7f030129, 
+      0x7f03017a, 0x7f03017d, 0x7f03022b, 0x7f03022c, 
+      0x7f03022d, 0x7f03022e, 0x7f03022f, 0x7f030230, 
+      0x7f030231, 0x7f030232, 0x7f030234, 0x7f030241
+    };
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#ambientEnab

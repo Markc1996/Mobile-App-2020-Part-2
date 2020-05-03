@@ -1,0 +1,28 @@
+    <flag name="end" value="0x00800005"/>
+    </attr><attr format="boolean" name="titleEnabled"/><attr name="title"/></declare-styleable>
+    <declare-styleable name="CollapsingToolbarLayout_Layout"><attr name="layout_collapseMode">
+      
+      <enum name="none" value="0"/>
+      
+      <enum name="pin" value="1"/>
+      
+      <enum name="parallax" value="2"/>
+    </attr><attr format="float" name="layout_collapseParallaxMultiplier"/></declare-styleable>
+    <declare-styleable name="ColorStateListItem">
+        
+        <attr name="android:color"/>
+        
+        <attr format="float" name="alpha"/>
+        <attr name="android:alpha"/>
+    </declare-styleable>
+    <declare-styleable name="CompoundButton">
+        <attr name="android:button"/>
+        
+        <attr format="reference" name="buttonCompat"/>
+        
+        <attr format="color" name="buttonTint"/>
+
+        
+        <attr name="buttonTintMode">
+            
+            <enum name="src_over" v

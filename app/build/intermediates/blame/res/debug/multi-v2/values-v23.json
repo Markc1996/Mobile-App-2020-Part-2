@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\markc\\Downloads\\MobileAppAssignment2-2020-Mark-Carley-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr-rCA\\values-fr-rCA.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\markc\\.gradle\\caches\\transforms-2\\files-2.1\\cf0633f98b9d70a0c192a792a42b80a8\\core-1.1.0\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "5842",
+                        "endColumns": "100",
+                        "endOffsets": "5938"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\markc\\.gradle\\caches\\transforms-2\\files-2.1\\1d9f0a49fc6d9dc95475f31916e87235\\play-services-base-17.1.0\\res\\values-fr-rCA\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "249,353,565,693,800,1030,1161,1308,1446,1700,1810,2026,2160,2379,2584,2683,2773",
+                        "endColumns": "103,211,127,106,229,130,146,137,253,109,215,133,218,204,98,89,108",
+                        "endOffsets": "352,564,692,799,1029,1160,1307,1445,1699,1809,2025,2159,2378,2583,2682,2772,2881"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,33,34,35,36,38,39,40,41,42,43,44,45,46",
+        

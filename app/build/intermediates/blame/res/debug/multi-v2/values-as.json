@@ -1,0 +1,114 @@
+2;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#layout_behavior}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name ie.wit:layout_behavior
+     */
+    public static final int CoordinatorLayout_Layout_layout_behavior=3;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#layout_dodgeInsetEdges}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
+     *
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>all</td><td>77</td><td></td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
+     * </table>
+     *
+     * @attr name ie.wit:layout_dodgeInsetEdges
+     */
+    public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#layout_insetEdge}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
+     * </table>
+     *
+     * @attr name ie.wit:layout_insetEdge
+     */
+    public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#layout_keyline}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name ie.wit:layout_keyline
+     */
+    public static final int CoordinatorLayout_Layout_layout_keyline=6;
+    /**
+     * Attributes that can be used with a DesignTheme.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme ie.wit:bottomSheetDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle ie.wit:bottomSheetStyle}</code></td><td></td></tr>
+     * </table>
+     * @see #DesignTheme_bottomSheetDialogTheme
+     * @see #DesignTheme_bottomSheetStyle
+     */
+    public static final int[] DesignTheme={
+      0x7f030044, 0x7f030045
+    };
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#bottomSheetDialogTheme}
+     * attribute's value can be found in the {@link #DesignTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name ie.wit:bottomSheetDialogTheme
+     */
+    public static final int DesignTheme_bottomSheetDialogTheme=0;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#bottomSheetStyle}
+     * attribute's value can be found in the {@link #DesignTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name ie.wit:bottomSheetStyle
+     */
+    public static final int DesignTheme_bottomSheetStyle=1;
+    /**
+     * Attributes that can be used with a DrawerArrowToggle.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength ie.wit:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><co

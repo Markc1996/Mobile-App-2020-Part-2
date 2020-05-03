@@ -1,0 +1,54 @@
+ddingLeft">@dimen/mtrl_btn_text_btn_padding_left</item>
+    <item name="android:paddingRight">@dimen/mtrl_btn_text_btn_padding_right</item>
+    <item name="iconTint">@color/mtrl_text_btn_text_color_selector</item>
+    <item name="iconPadding">@dimen/mtrl_btn_text_btn_icon_padding</item>
+    <item name="backgroundTint">@color/mtrl_btn_transparent_bg_color</item>
+    <item name="rippleColor">@color/mtrl_btn_text_btn_ripple_color</item>
+  </style><style name="Widget.MaterialComponents.Button.TextButton.Dialog">
+    <item name="android:minWidth">@dimen/mtrl_btn_dialog_btn_min_width</item>
+  </style><style name="Widget.MaterialComponents.Button.TextButton.Dialog.Icon">
+    
+  </style><style name="Widget.MaterialComponents.Button.TextButton.Icon">
+    
+  </style><style name="Widget.MaterialComponents.Button.UnelevatedButton">
+    <item name="android:stateListAnimator" ns2:ignore="NewApi">@animator/mtrl_btn_unelevated_state_list_anim</item>
+  </style><style name="Widget.MaterialComponents.Button.UnelevatedButton.Icon">
+    <item name="android:paddingLeft">@dimen/mtrl_btn_icon_btn_padding_left</item>
+  </style><style name="Widget.MaterialComponents.CardView" parent="CardView">
+    <item name="cardElevation">@dimen/mtrl_card_elevation</item>
+    <item name="cardBackgroundColor">?attr/colorBackgroundFloating</item>
+  </style><style name="Widget.MaterialComponents.Chip.Action" parent="Base.Widget.MaterialComponents.Chip">
+    <item name="closeIconVisible">false</item>
+  </style><style name="Widget.MaterialComponents.Chip.Choice" parent="Base.Widget.MaterialComponents.Chip">
+    <item name="android:checkable">true</item>
+
+    <item name="chipIconVisible">false</item>
+    <item name="checkedIconVisible">false</item>
+    <item name="closeIconVisible">false</item>
+
+    <item name="checkedIcon">@drawable/ic_mtrl_chip_checked_black</item>
+  </style><style name="Widget.MaterialComponents.Chip.Entry" parent="Base.Widget.MaterialComponents.Chip">
+    <item name="android:checkable">true</item>
+  </style><style name="Widget.MaterialComponents.Chip.Filter" parent="Base.Widget.MaterialComponents.Chip">
+    <item name="android:checkable">true</item>
+
+    <item name="chipIconVisible">false</item>
+    <item name="closeIconVisible">false</item>
+
+    <item name="checkedIcon">@drawable/ic_mtrl_chip_checked_black</item>
+  </style><style name="Widget.MaterialComponents.ChipGroup" parent="android:Widget">
+    <item name="chipSpacing">4dp</item>
+    <item name="singleLine">false</item>
+    <item name="singleSelection">false</item>
+  </style><style name="Widget.MaterialComponents.FloatingActionButton" parent="Widget.Design.FloatingActionButton">
+    <item name="elevation">@dimen/mtrl_fab_elevation</item>
+    <item name="hoveredFocusedTranslationZ">@dimen/mtrl_fab_translation_z_hovered_focused</item>
+    <item name="pressedTranslationZ">@dimen/mtrl_fab_translation_z_pressed</item>
+    <item name="rippleColor">@color/mtrl_fab_ripple_color</item>
+    <item name="showMotionSpec">@animator/mtrl_fab_show_motion_spec</item>
+    <item name="hideMotionSpec">@animator/mtrl_fab_hide_motion_spec</item>
+  </style><style name="Widget.MaterialComponents.NavigationView" parent="Widget.Design.NavigationView">
+    <item name="elevation">@dimen/mtrl_navigation_elevation</item>
+    <item name="itemIconPadding">@dimen/mtrl_navigation_item_icon_padding</item>
+    <item name="itemHorizontalPadding">@dimen/mtrl_navigation_item_horizontal_padding</item>
+  </style>

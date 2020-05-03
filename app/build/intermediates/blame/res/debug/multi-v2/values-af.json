@@ -1,0 +1,110 @@
+</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>percent</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>wrap</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name ie.wit:layout_constraintHeight_default
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintHeight_default=26;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#layout_constraintHeight_max}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name ie.wit:layout_constraintHeight_max
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintHeight_max=27;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#layout_constraintHeight_min}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name ie.wit:layout_constraintHeight_min
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintHeight_min=28;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#layout_constraintHeight_percent}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name ie.wit:layout_constraintHeight_percent
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintHeight_percent=29;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#layout_constraintHorizontal_bias}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name ie.wit:layout_constraintHorizontal_bias
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias=30;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#layout_constraintHorizontal_chainStyle}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name ie.wit:layout_constraintHorizontal_chainStyle
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle=31;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#layout_constraintHorizontal_weight}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name ie.wit:layout_constraintHorizontal_weight
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight=32;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#layout_constraintLeft_creator}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name ie.wit:layout_constraintLeft_creator
+     */
+    public static fin

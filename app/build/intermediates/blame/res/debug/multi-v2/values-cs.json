@@ -1,0 +1,104 @@
+ol is the offset where the {@link ie.wit.R.attr#passwordToggleEnabled}
+     * attribute's value can be found in the {@link #TextInputLayout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name ie.wit:passwordToggleEnabled
+     */
+    public static final int TextInputLayout_passwordToggleEnabled=25;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#passwordToggleTint}
+     * attribute's value can be found in the {@link #TextInputLayout} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name ie.wit:passwordToggleTint
+     */
+    public static final int TextInputLayout_passwordToggleTint=26;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#passwordToggleTintMode}
+     * attribute's value can be found in the {@link #TextInputLayout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
+     * </table>
+     *
+     * @attr name ie.wit:passwordToggleTintMode
+     */
+    public static final int TextInputLayout_passwordToggleTintMode=27;
+    /**
+     * Attributes that can be used with a ThemeEnforcement.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #ThemeEnforcement_android_textAppearance android:textAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ThemeEnforcement_enforceMaterialTheme ie.wit:enforceMaterialTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ThemeEnforcement_enforceTextAppearance ie.wit:enforceTextAppearance}</code></td><td></td></tr>
+     * </table>
+     * @see #ThemeEnforcement_android_textAppearance
+     * @see #ThemeEnforcement_enforceMaterialTheme
+     * @see #ThemeEnforcement_enforceTextAppearance
+     */
+    public static final int[] ThemeEnforcement={
+      0x01010034, 0x7f0300d1, 0x7f0300d2
+    };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
+     * attribute's value can be found in the {@link #ThemeEnforcement} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:textAppearance
+     */
+    public static final int ThemeEnforcement_android_textAppearance=0;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#enforceMaterialTheme}
+     * attribute's value can be found in the {@link #ThemeEnforcement} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name ie.wit:enforceMaterialTheme
+     */
+    public static final int ThemeEnforcement_enforceMaterialTheme=1;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#enforceTextAppearance}
+     * attribute's value can be found in the {@link #ThemeEnforcement} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name ie.wit:enforceTextAppearance
+     */
+    public static final int ThemeEnforcement_enforceTextAppearance=2;
+    /**
+     * Attributes that can be used with a Toolbar.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity ie.wit:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription ie.wit:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon ie.wit:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd ie.wit:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions ie.wit:c

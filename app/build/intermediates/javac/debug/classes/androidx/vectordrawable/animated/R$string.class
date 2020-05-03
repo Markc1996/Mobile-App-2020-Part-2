@@ -1,0 +1,22 @@
+ewClass"/>
+
+        
+        <attr format="string" name="actionProviderClass"/>
+
+        
+        <attr format="string" name="contentDescription"/>
+
+        
+        <attr format="string" name="tooltipText"/>
+
+        
+        <attr format="color" name="iconTint"/>
+
+        
+        <attr name="iconTintMode">
+            
+            <enum name="src_over" value="3"/>
+            
+            <enum name="src_in" value="5"/>
+            
+            <enum name="src_a

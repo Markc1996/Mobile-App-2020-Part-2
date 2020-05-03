@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="RunConfigurationProducerService">
-    <option name="ignoredProducers">
-      <set>
-        <option value="org.jetbrains.plugins.gradle.execution.test.runner.AllInPackageGradleConfigurationProducer" />
-        <option value="org.jetbrains.plugins.gradle.execution.test.runner.TestClassGradleConfigurationProducer" />
-        <option value="org.jetbrains.plugins.gradle.execution.test.runner.TestMethodGradleConfigurationProducer" />
-      </set>
-    </option>
-  </component>
-</project>
+ote.WatchStreamπcom.google.firebase.firestore.remote.Datastore$$Lambda$2∫com.google.firebase.firestore.remote.WriteStream$Callback±com.google.firestore.v1.BatchGetDocumentsRequest¢com.google.android.gms.tasks.Taskπcom.google.firebase.firestore.remote.Datastore$$Lambda$1∂com.google.firebase.firestore.remote.FirestoreChannel∑com.google.firebase.firestore.auth.CredentialsProviderôandroid.os.Build$VERSIONÆcom.google.firestore.v1.CommitRequest$Builder¶com.google.firestore.v1.CommitRequestèio.grpc.Statusëandroid.os.Build∫com.google.firebase.firestore.remote.WatchS

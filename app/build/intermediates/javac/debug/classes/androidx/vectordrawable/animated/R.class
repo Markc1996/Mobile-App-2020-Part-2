@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <attr format="boolean" name="barrierAllowsGoneWidgets"/>
+    <attr format="enum" name="barrierDirection">
+        <enum name="left" value="0"/>
+        <enum name="right" value="1"/>
+        <enum name="top" value="2"/>
+        <enum name="bottom" value="3"/>
+        <enum name="start" value="5"/>
+        <enum name="end" value="6"/>
+    </attr>
+    <attr format="reference" name="bottomAppBarStyle"/>
+    <attr format="reference" name="bottomNavigationStyle"/>
+    <attr format="reference" name="bottomSheetDialogTheme"/>
+    <attr format="reference" name="bottomSheetStyle"/>
+    <attr format="reference" name="cardViewStyle"/>
+    <attr format="boolean" name="chainUseRtl"/>
+    <attr format="reference" name="chipGroupStyle"/>
+    <attr format="reference" name="chipStandaloneStyle"/>
+    <attr 

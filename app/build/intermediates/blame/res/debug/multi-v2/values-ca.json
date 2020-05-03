@@ -1,0 +1,93 @@
+   */
+    public static final int TabLayout_tabPaddingStart=18;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#tabPaddingTop}
+     * attribute's value can be found in the {@link #TabLayout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name ie.wit:tabPaddingTop
+     */
+    public static final int TabLayout_tabPaddingTop=19;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#tabRippleColor}
+     * attribute's value can be found in the {@link #TabLayout} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name ie.wit:tabRippleColor
+     */
+    public static final int TabLayout_tabRippleColor=20;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#tabSelectedTextColor}
+     * attribute's value can be found in the {@link #TabLayout} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name ie.wit:tabSelectedTextColor
+     */
+    public static final int TabLayout_tabSelectedTextColor=21;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#tabTextAppearance}
+     * attribute's value can be found in the {@link #TabLayout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name ie.wit:tabTextAppearance
+     */
+    public static final int TabLayout_tabTextAppearance=22;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#tabTextColor}
+     * attribute's value can be found in the {@link #TabLayout} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name ie.wit:tabTextColor
+     */
+    public static final int TabLayout_tabTextColor=23;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#tabUnboundedRipple}
+     * attribute's value can be found in the {@link #TabLayout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name ie.wit:tabUnboundedRipple
+     */
+    public static final int TabLayout_tabUnboundedRipple=24;
+    /**
+     * Attributes that can be used with a TextAppearance.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_android_textColor android:textColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_android_textColorHint android:textColorHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_android_textColorLink android:textColorLink}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_android_shadowColor android:shadowColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_android_shadowDx android:shadowDx}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_android_textFontWeight android:textFontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily ie.wit:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontVariationSettings ie.wit:fontVariationSettings}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps ie.wit:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance

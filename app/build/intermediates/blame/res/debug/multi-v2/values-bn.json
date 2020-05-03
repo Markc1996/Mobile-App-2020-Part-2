@@ -1,0 +1,114 @@
+tr><td>vertical</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:orientation
+     */
+    public static final int RecyclerView_android_orientation=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#descendantFocusability}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>afterDescendants</td><td>1</td><td></td></tr>
+     * <tr><td>beforeDescendants</td><td>0</td><td></td></tr>
+     * <tr><td>blocksDescendants</td><td>2</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:descendantFocusability
+     */
+    public static final int RecyclerView_android_descendantFocusability=1;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#fastScrollEnabled}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name ie.wit:fastScrollEnabled
+     */
+    public static final int RecyclerView_fastScrollEnabled=2;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#fastScrollHorizontalThumbDrawable}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name ie.wit:fastScrollHorizontalThumbDrawable
+     */
+    public static final int RecyclerView_fastScrollHorizontalThumbDrawable=3;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#fastScrollHorizontalTrackDrawable}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name ie.wit:fastScrollHorizontalTrackDrawable
+     */
+    public static final int RecyclerView_fastScrollHorizontalTrackDrawable=4;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#fastScrollVerticalThumbDrawable}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name ie.wit:fastScrollVerticalThumbDrawable
+     */
+    public static final int RecyclerView_fastScrollVerticalThumbDrawable=5;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#fastScrollVerticalTrackDrawable}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name ie.wit:fastScrollVerticalTrackDrawable
+     */
+    public static final int RecyclerView_fastScrollVerticalTrackDrawable=6;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#layoutManager}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name ie.wit:layoutManager
+     */
+    public static final int RecyclerView_layoutManager=7;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#reverseLayout}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name ie.wit:reverseLayout
+     */
+    public static final int RecyclerView_reverseLayout=8;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#spanCount}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name ie.wit:spanCount
+     */
+    public static final int RecyclerView_spanCount=9;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#stackFromEnd}
+     * attribute's value can be found in the {@link #RecyclerVi

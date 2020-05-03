@@ -1,0 +1,23 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ie.wit"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->C:\Users\markc\Downloads\MobileAppAssignment2-2020-Mark-Carley-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\markc\Downloads\MobileAppAssignment2-2020-Mark-Carley-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\markc\Downloads\MobileAppAssignment2-2020-Mark-Carley-master\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\markc\Downloads\MobileAppAssignment2-2020-Mark-Carley-master\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\markc\Downloads\MobileAppAssignment2-2020-Mark-Carley-master\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\markc\Downloads\MobileAppAssignment2-2020-Mark-Carley-master\app\src\main\AndroidManifest.xml:6:22-76
+13
+14    <!-- Include required permissions for Google Maps API to run. -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\markc\.gradle\caches\transforms-2\files-2.1\4c5ca33b2db60b40ad5235885a2a9c6d\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+15-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\markc\.gradle\caches\transforms-2\files-2.1\4c5ca33b2db60b40ad5235885a2a9c6d\play-services-maps-17.0.0\AndroidManifest.xm

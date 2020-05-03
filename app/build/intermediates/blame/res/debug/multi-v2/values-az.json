@@ -1,0 +1,112 @@
+ame</i></code>".
+     *
+     * @attr name ie.wit:font
+     */
+    public static final int FontFamilyFont_font=5;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#fontStyle}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>italic</td><td>1</td><td></td></tr>
+     * <tr><td>normal</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name ie.wit:fontStyle
+     */
+    public static final int FontFamilyFont_fontStyle=6;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#fontVariationSettings}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name ie.wit:fontVariationSettings
+     */
+    public static final int FontFamilyFont_fontVariationSettings=7;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#fontWeight}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name ie.wit:fontWeight
+     */
+    public static final int FontFamilyFont_fontWeight=8;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#ttcIndex}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name ie.wit:ttcIndex
+     */
+    public static final int FontFamilyFont_ttcIndex=9;
+    /**
+     * Attributes that can be used with a ForegroundLinearLayout.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding ie.wit:foregroundInsidePadding}</code></td><td></td></tr>
+     * </table>
+     * @see #ForegroundLinearLayout_android_foreground
+     * @see #ForegroundLinearLayout_android_foregroundGravity
+     * @see #ForegroundLinearLayout_foregroundInsidePadding
+     */
+    public static final int[] ForegroundLinearLayout={
+      0x01010109, 0x01010200, 0x7f0300f6
+    };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#foreground}
+     * attribute's value can be found in the {@link #ForegroundLinearLayout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name android:foreground
+     */
+    public static final int ForegroundLinearLayout_android_foreground=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#foregroundGravity}
+     * attribute's value can be found in the {@link #ForegroundLinearLayout} array.
+     *
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>center</td><td>11</td><td></td></tr>
+     * <tr><td>center_horizontal</td><td>1</td><td></td></tr>
+     * <tr><td>center_vertical</td><td>10</td><td></td></tr>
+     * <tr><td>clip_horizontal</td><td>8</td><td></td></tr>
+     * <tr><td>clip_vertical</td><td>80</td><td></td></tr>
+     * <tr><td>fill</td><td>77</td><td></td></tr>
+     * <tr><td>fill_horizontal</td><td>7</td><td></td></tr>
+     * <tr><td>fill_vertical</td><td>70</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:foregroundGravity
+     */
+    public static final int ForegroundLinearLayout_android_foregroundGravity=1;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#foregroundInsidePad

@@ -1,0 +1,35 @@
+Widget.MaterialComponents.Button.TextButton.Dialog">
+    <item name="android:minWidth">@dimen/mtrl_btn_dialog_btn_min_width</item>
+  </style>
+    <style name="Widget.MaterialComponents.Button.TextButton.Dialog.Icon">
+    
+  </style>
+    <style name="Widget.MaterialComponents.Button.TextButton.Icon">
+    
+  </style>
+    <style name="Widget.MaterialComponents.Button.UnelevatedButton">
+    <item name="android:stateListAnimator" ns2:ignore="NewApi">@animator/mtrl_btn_unelevated_state_list_anim</item>
+  </style>
+    <style name="Widget.MaterialComponents.Button.UnelevatedButton.Icon">
+    <item name="android:paddingLeft">@dimen/mtrl_btn_icon_btn_padding_left</item>
+  </style>
+    <style name="Widget.MaterialComponents.CardView" parent="CardView">
+    <item name="cardElevation">@dimen/mtrl_card_elevation</item>
+    <item name="cardBackgroundColor">?attr/colorBackgroundFloating</item>
+  </style>
+    <style name="Widget.MaterialComponents.Chip.Action" parent="Base.Widget.MaterialComponents.Chip">
+    <item name="closeIconVisible">false</item>
+  </style>
+    <style name="Widget.MaterialComponents.Chip.Choice" parent="Base.Widget.MaterialComponents.Chip">
+    <item name="android:checkable">true</item>
+
+    <item name="chipIconVisible">false</item>
+    <item name="checkedIconVisible">false</item>
+    <item name="closeIconVisible">false</item>
+
+    <item name="checkedIcon">@drawable/ic_mtrl_chip_checked_black</item>
+  </style>
+    <style name="Widget.MaterialComponents.Chip.Entry" parent="Base.Widget.MaterialComponents.Chip">
+    <item name="android:checkable">true</item>
+  </style>
+    <style name="Widget.Ma

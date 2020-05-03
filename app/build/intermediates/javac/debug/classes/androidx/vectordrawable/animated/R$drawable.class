@@ -1,0 +1,16 @@
+style/Widget.MaterialComponents.Toolbar</item>
+
+    
+    <item name="alertDialogTheme">@style/ThemeOverlay.MaterialComponents.Dialog.Alert</item>
+    <item name="android:datePickerDialogTheme" ns2:ignore="NewApi">@style/ThemeOverlay.MaterialComponents.Dialog</item>
+    <item name="android:timePickerDialogTheme" ns2:ignore="NewApi">@style/ThemeOverlay.MaterialComponents.Dialog</item>
+  </style><style name="Base.V14.Theme.MaterialComponents.Light.Bridge" parent="Platform.MaterialComponents.Light">
+    <item name="colorSecondary">?attr/colorPrimary</item>
+
+    <item name="scrimBackground">@color/mtrl_scrim_color</item>
+
+    
+    <item name="textAppearanceHeadline1">@style/TextAppearance.MaterialComponents.Headline1</item>
+    <item name="textAppearanceHeadline2">@style/TextAppearance.MaterialComponents.Headline2</item>
+    <item name="textAppearanceHeadline3">@style/TextAppearance.MaterialComponents.Headline3</item>
+    <item name="textAppearanceHeadline4">@style/TextAppearance.MaterialComponents.Headl

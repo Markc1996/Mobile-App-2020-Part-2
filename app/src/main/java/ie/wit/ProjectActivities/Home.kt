@@ -1,150 +1,1 @@
-package ie.wit.ProjectActivities
-
-import android.content.Intent
-import android.location.Location
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-import android.util.Log
-import android.view.Menu
-import android.view.MenuItem
-import androidx.appcompat.app.ActionBarDrawerToggle
-import androidx.core.view.GravityCompat
-import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentTransaction
-import checkLocationPermissions
-import com.google.android.gms.location.LocationServices
-import com.google.android.material.navigation.NavigationView
-import com.google.android.material.snackbar.Snackbar
-import ie.wit.ProjectFragments.*
-import ie.wit.R
-import ie.wit.ProjectFragments.DonateFragment.Companion.newInstance
-import ie.wit.ProjectMain.FishingApp
-import isPermissionGranted
-import kotlinx.android.synthetic.main.app_bar_home.*
-import kotlinx.android.synthetic.main.fragment_about_us.*
-import kotlinx.android.synthetic.main.home.*
-import kotlinx.android.synthetic.main.nav_header_home.view.*
-import org.jetbrains.anko.startActivity
-import org.jetbrains.anko.toast
-import setCurrentLocation
-import java.lang.reflect.Array.newInstance
-
-class Home : AppCompatActivity(),
-    NavigationView.OnNavigationItemSelectedListener {
-
-    lateinit var ft: FragmentTransaction
-    lateinit var app: FishingApp
-
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.home)
-        setSupportActionBar(toolbar)
-        app = application as FishingApp
-        app.locationClient = LocationServices.getFusedLocationProviderClient(this)
-        app.currentLocation = Location("Default").apply {
-            latitude = 52.245696
-            longitude = -7.139102
-
-
-
-        }
-        if(checkLocationPermissions(this)) {
-            // todo get the current location
-            setCurrentLocation(app)
-        }
-
-
-        navView.setNavigationItemSelectedListener(this)
-        val toggle = ActionBarDrawerToggle(this, drawerLayout, toolbar,
-            R.string.navigation_drawer_open, R.string.navigation_drawer_close
-        )
-        drawerLayout.addDrawerListener(toggle)
-        toggle.syncState()
-
-        navView.getHeaderView(0).nav_header_email.text = app.auth.currentUser?.email
-
-        ft = supportFragmentManager.beginTransaction()
-
-        val fragment = DonateFragment.newInstance()
-        ft.replace(R.id.homeFrame, fragment)
-        ft.commit()
-    }
-
-    override fun onNavigationItemSelected(item: MenuItem): Boolean {
-
-        when (item.itemId) {
-            R.id.nav_donate ->
-                navigateTo(DonateFragment.newInstance())
-            R.id.nav_report ->
-                navigateTo(ReportFragment.newInstance())
-            R.id.nav_aboutus ->
-                navigateTo(AboutFragment.newInstance())
-            R.id.nav_table ->
-                navigateTo(TableFragment.newInstance())
-            R.id.nav_sign_out ->
-                signOut()
-            R.id.nav_favourites ->
-                navigateTo(FavouritesFragment.newInstance())
-
-
-            else -> toast("You Selected Something Else")
-        }
-        drawerLayout.closeDrawer(GravityCompat.START)
-        return true
-    }
-
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        menuInflater.inflate(R.menu.menu_home, menu)
-        return true
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-
-        when (item.itemId) {
-            R.id.nav_aboutus ->
-                navigateTo(AboutFragment.newInstance())
-            R.id.nav_favourites ->
-                navigateTo(FavouritesFragment.newInstance())
-
-        }
-        return super.onOptionsItemSelected(item)
-    }
-
-    override fun onBackPressed() {
-        if (drawerLayout.isDrawerOpen(GravityCompat.START))
-            drawerLayout.closeDrawer(GravityCompat.START)
-         else
-            super.onBackPressed()
-    }
-
-
-    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<String>, grantResults: IntArray) {
-        if (isPermissionGranted(requestCode, grantResults)) {
-            // todo get the current location
-            setCurrentLocation(app)
-        } else {
-            // permissions denied, so use the default location
-            app.currentLocation = Location("Default").apply {
-                latitude = 52.245696
-                longitude = -7.139102
-            }
-        }
-        Log.v("Donation", "Home LAT: ${app.currentLocation.latitude} LNG: ${app.currentLocation.longitude}")
-    }
-
-
-    private fun navigateTo(fragment: Fragment) {
-        supportFragmentManager.beginTransaction()
-            .replace(R.id.homeFrame, fragment)
-            .addToBackStack(null)
-            .commit()
-    }
-
-    private fun signOut()
-    {
-        app.auth.signOut()
-        startActivity<Login>()
-        finish()
-    }
-}
+ie.wit.ProjectMain.FishingApp'ie.wit.ProjectAdapters.DonationListener&ie.wit.ProjectAdapters.DonationAdapter1ie.wit.ProjectAdapters.DonationAdapter.MainHolder%ie.wit.ProjectFragments.AboutFragment/ie.wit.ProjectFragments.AboutFragment.Companion&ie.wit.ProjectFragments.DonateFragment0ie.wit.ProjectFragments.DonateFragment.Companion$ie.wit.ProjectFragments.EditFragment.ie.wit.ProjectFragments.EditFragment.Companion*ie.wit.ProjectFragments.FavouritesFragment4ie.wit.ProjectFragments.FavouritesFragment.Companion&ie.wit.ProjectFragments.ReportFragment0ie.wit.ProjectFragments.ReportFragment.Companion%ie.wit.ProjectFragments.TableFragment/ie.wit.ProjectFragments.TableFragment.Companion"ie.wit.ProjectModels.DonationModel(ie.wit.ProjectActivities.GalleryActivityie.wit.ProjectActivities.Homeie.wit.ProjectActivities.Login(ie.wit.ProjectActivities.Login.Companion-ie.wit.ProjectActivities.SplashScreenActivity-ie.wit.ProjectUtilities.SwipeToDeleteCallback+ie.wit.ProjectUtilities.SwipeToEditCallbackie.wit.R.mipmapie.wit.R.menuie.wit.R.idie.wit.R.layoutie.wit.R.drawableie.wit.R.string#com.google.firebase.storage.R.style$androidx.appcompat.resources.R.dimenandroidx.fragment.R.colorandroidx.appcompat.R.dimenandroidx.appcompat.resources.Randroidx.media.R*com.google.android.gms.auth.api.R.drawable0com.google.firebase.database.collection.R.layoutandroidx.recyclerview.R.string androidx.legacy.coreutils.R.attrandroidx.legacy.coreui.R.dimenandroidx.core.R.styleableandroidx.legacy.coreui.R&com.google.android.gms.base.R.drawableandroidx.legacy.v4.R.layoutandroidx.activity.R.id&com.google.firebase.storage.R.drawableandroidx.appcompat.R.boolandroidx.transition.R.idandroidx.media.R.id#androidx.slidingpanelayout.R.layoutandroidx.viewpager.R.layoutandroidx.appcompat.R.attrandroidx.core.ktx.R.styleable!androidx.appcompat.R.interpolator#com.google.firebase.storage.R.colorandroidx.core.ktx.R.attrandroidx.fragment.R.styleandroidx.fragment.R.styleableandroidx.transition.R.dimenandroidx.media.R.attrandroidx.loader.Randroidx.loader.R.attr!androidx.vectordrawable.R.integerandroidx.activity.R.stringandroidx.legacy.coreui.R.attr androidx.vectordrawable.R.layoutandroidx.activity.R.dimenandroidx.appcompat.R%androidx.asynclayoutinflater.R.layoutandroidx.fragment.R.drawable+com.google.android.gms.auth.api.R.styleableandroidx.recyclerview.R.idandroidx.transition.R.string%com.google.firebase.firestore.R.color#androidx.swiperefreshlayout.R.colorandroidx.legacy.v4.R.integer!androidx.legacy.coreutils.R.dimen#com.google.android.gms.base.R.colorandroidx.customview.R%androidx.legacy.coreutils.R.styleableandroidx.recyclerview.R.layout&androidx.swiperefreshlayout.R.drawable%com.google.android.material.R.integer%androidx.appcompat.resources.R.stringandroidx.core.R.attrcom.google.firebase.R.styleandroidx.drawerlayout.R.integer(com.google.firebase.firestore.R.drawable"androidx.coordinatorlayout.R.styleandroidx.drawerlayout.R.layout#androidx.slidingpanelayout.R.stringandroidx.activity.R%androidx.asynclayoutinflater.R.stringandroidx.customview.R.stringandroidx.legacy.coreui.R.stringandroidx.legacy.coreutils.R.idandroidx.viewpager.R.string+androidx.vectordrawable.animated.R.drawableandroidx.core.R.dimen$com.google.android.material.R.layout$com.google.firebase.database.R.style'com.google.firebase.database.R.drawable$com.google.firebase.database.R.colorandroidx.appcompat.R.string(androidx.vectordrawable.animated.R.style%androidx.coordinatorlayout.R.drawableandroidx.transition.Randroidx.media.R.dimen%com.google.firebase.firestore.R.style(androidx.vectordrawable.animated.R.color#androidx.swiperefreshlayout.R.style"androidx.coordinatorlayout.R.colorandroidx.core.ktx.R.dimencom.google.android.gms.maps.Randroidx.legacy.coreui.R.color$androidx.swiperefreshlayout.R.layoutandroidx.recyclerview.R.attrandroidx.activity.R.styleable#com.google.firebase.database.R.attr"androidx.legacy.coreutils.R.stringcom.google.firebase.R.styleableandroidx.viewpager.R.style$androidx.appcompat.resources.R.color'androidx.constraintlayout.widget.R.attr$com.google.android.material.R.stringandroidx.legacy.v4.R.styleandroidx.loader.R.drawablecom.google.firebase.R.layoutandroidx.appcompat.R.styleable*com.google.android.material.R.interpolator&com.google.android.material.R.animator com.google.android.gms.maps.R.idcom.google.firebase.R.colorandroidx.appcompat.R.layoutandroidx.fragment.R.attrandroidx.fragment.R.idandroidx.legacy.v4.R"com.google.firebase.storage.R.attrandroidx.asynclayoutinflater.R&androidx.asynclayoutinflater.R.integerandroidx.loader.R.stylecom.google.firebase.storage.R!com.google.firebase.database.R.id%androidx.swiperefreshlayout.R.integercom.google.firebase.R.stringandroidx.core.ktx.R.colorandroidx.media.R.drawableandroidx.coordinatorlayout.R.idandroidx.loader.R.styleab

@@ -1,0 +1,112 @@
+),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:dropDownWidth
+     */
+    public static final int Spinner_android_dropDownWidth=3;
+    /**
+     * <p>This symbol is the offset where the {@link ie.wit.R.attr#popupTheme}
+     * attribute's value can be found in the {@link #Spinner} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name ie.wit:popupTheme
+     */
+    public static final int Spinner_popupTheme=4;
+    /**
+     * Attributes that can be used with a StateListDrawable.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #StateListDrawable_android_dither android:dither}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StateListDrawable_android_visible android:visible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StateListDrawable_android_variablePadding android:variablePadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StateListDrawable_android_constantSize android:constantSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StateListDrawable_android_enterFadeDuration android:enterFadeDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StateListDrawable_android_exitFadeDuration android:exitFadeDuration}</code></td><td></td></tr>
+     * </table>
+     * @see #StateListDrawable_android_dither
+     * @see #StateListDrawable_android_visible
+     * @see #StateListDrawable_android_variablePadding
+     * @see #StateListDrawable_android_constantSize
+     * @see #StateListDrawable_android_enterFadeDuration
+     * @see #StateListDrawable_android_exitFadeDuration
+     */
+    public static final int[] StateListDrawable={
+      0x0101011c, 0x01010194, 0x01010195, 0x01010196, 
+      0x0101030c, 0x0101030d
+    };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#dither}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:dither
+     */
+    public static final int StateListDrawable_android_dither=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#visible}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:visible
+     */
+    public static final int StateListDrawable_android_visible=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#variablePadding}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:variablePadding
+     */
+    public static final int StateListDrawable_android_variablePadding=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#constantSize}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:constantSize
+     */
+    public static final int StateListDrawable_android_constantSize=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#enterFadeDuration}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name android:enterFadeDuration
+     */
+    public static final int StateListDrawable_android_enterFadeDuration=4;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#exitFadeDuration}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name android:exitFadeDuration
+     */
+    public static final int StateListDrawable_android_exitFadeDuration
