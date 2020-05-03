@@ -10,7 +10,7 @@ import android.view.ViewGroup
 import ie.wit.R
 
 
-class AboutFragment : Fragment() {
+class TableFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,14 +21,14 @@ class AboutFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        activity?.title = getString(R.string.menu_about)
-        return inflater.inflate(R.layout.fragment_about_us, container, false)
+        activity?.title = getString(R.string.nav_table_header)
+        return inflater.inflate(R.layout.fragment_table, container, false)
     }
 
     companion object {
         @JvmStatic
         fun newInstance() =
-            AboutFragment().apply {
+            TableFragment().apply {
                 arguments = Bundle().apply { }
             }
     }

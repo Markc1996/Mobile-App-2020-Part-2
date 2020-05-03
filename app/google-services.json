@@ -15,7 +15,7 @@
       },
       "oauth_client": [
         {
-          "client_id": "785869123167-qf9lmn212el7m58ngqicorkp9atvalsc.apps.googleusercontent.com",
+          "client_id": "785869123167-h1utut4ufir26q5b3h0aaid0ieeiqm4g.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "ie.wit",
@@ -32,7 +32,7 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "785869123167-m2525ao2sraakbg35fjmft962ufqphgo.apps.googleusercontent.com",
+              "client_id": "785869123167-schig2lbgm0omb5h79ufqlpoosb0b9j3.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

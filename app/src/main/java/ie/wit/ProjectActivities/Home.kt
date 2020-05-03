@@ -15,11 +15,9 @@ import checkLocationPermissions
 import com.google.android.gms.location.LocationServices
 import com.google.android.material.navigation.NavigationView
 import com.google.android.material.snackbar.Snackbar
+import ie.wit.ProjectFragments.*
 import ie.wit.R
-import ie.wit.ProjectFragments.AboutFragment
-import ie.wit.ProjectFragments.DonateFragment
-import ie.wit.ProjectFragments.FavouritesFragment
-import ie.wit.ProjectFragments.ReportFragment
+import ie.wit.ProjectFragments.DonateFragment.Companion.newInstance
 import ie.wit.ProjectMain.FishingApp
 import isPermissionGranted
 import kotlinx.android.synthetic.main.app_bar_home.*
@@ -29,6 +27,7 @@ import kotlinx.android.synthetic.main.nav_header_home.view.*
 import org.jetbrains.anko.startActivity
 import org.jetbrains.anko.toast
 import setCurrentLocation
+import java.lang.reflect.Array.newInstance
 
 class Home : AppCompatActivity(),
     NavigationView.OnNavigationItemSelectedListener {
@@ -81,10 +80,13 @@ class Home : AppCompatActivity(),
                 navigateTo(ReportFragment.newInstance())
             R.id.nav_aboutus ->
                 navigateTo(AboutFragment.newInstance())
+            R.id.nav_table ->
+                navigateTo(TableFragment.newInstance())
             R.id.nav_sign_out ->
                 signOut()
             R.id.nav_favourites ->
                 navigateTo(FavouritesFragment.newInstance())
+
 
             else -> toast("You Selected Something Else")
         }
@@ -104,6 +106,7 @@ class Home : AppCompatActivity(),
                 navigateTo(AboutFragment.newInstance())
             R.id.nav_favourites ->
                 navigateTo(FavouritesFragment.newInstance())
+
         }
         return super.onOptionsItemSelected(item)
     }
